@@ -1,0 +1,85 @@
+
+.jumbotron-background {
+    position:relative;
+    overflow:hidden;
+    background-size:100%;
+  }
+  #j
+  {
+      padding: 0px;
+      padding-bottom: 0px;
+  }
+
+  #para
+  {
+      position:absolute;
+      bottom:10px;
+      left:10px;
+      font-family: 'Source Code Pro', monospace;
+  }
+  #sp{
+      font-weight:1000;
+  }
+  .navbar
+  {
+      font-size:20px;
+  }
+  #nb
+  {
+      font-size:32px;
+  }
+  .panel-footer
+{
+    background-color: #ebf0fa;
+    color:#808080;
+    margin-top:30px;
+    padding-top:25px;
+    clear:both;
+}
+#about
+{
+    text-align: center;
+}
+#about div{
+    margin-bottom:10px;
+}
+#testimonials
+{
+    text-align: center;
+}
+#testimonials div{
+    font-size:16px;
+    margin-bottom: 7px;
+}
+#connect{
+    text-align: center;
+}
+.row span
+{
+    font-size:16px;
+    font-weight: 500;
+}
+  #maincontent{
+    font-family: 'Libre Baskerville', serif;
+    background-color:white;
+    font-size:18px;
+  }
+#para .par{
+    color:#ff99ff;
+}
+.navbar-brand a:hover{
+    text-decoration:none;
+    color:Blue;
+}
+.navbar-brand a:focus{
+    text-decoration:none;
+    color:Blue;
+}
+#doc{
+    clear:both;
+}
+.btnn{
+    margin-left:75vw;
+    margin-top:0px;
+
+}
