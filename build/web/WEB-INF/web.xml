@@ -28,6 +28,10 @@
         <servlet-name>sendNotificationServlet</servlet-name>
         <servlet-class>instantHealthcare_servlets.sendNotificationServlet</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>adminpanel</servlet-name>
+        <servlet-class>instantHealthcare_servlets.adminpanel</servlet-class>
+    </servlet>
     <servlet-mapping>
         <servlet-name>loginservlet</servlet-name>
         <url-pattern>/loginservlet</url-pattern>
@@ -55,6 +59,10 @@
     <servlet-mapping>
         <servlet-name>sendNotificationServlet</servlet-name>
         <url-pattern>/sendNotificationServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>adminpanel</servlet-name>
+        <url-pattern>/adminpanel</url-pattern>
     </servlet-mapping>
     <session-config>
         <session-timeout>
